@@ -1,6 +1,6 @@
 package ex02
 
-object Validation {
+object Validation1 {
 
   case class Error(message: String = "invalid")
 

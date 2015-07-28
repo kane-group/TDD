@@ -6,36 +6,40 @@ class FormSpec extends FunSpec {
 
   describe("Form") {
 
-    describe("SignUp validate") {
+    describe("SignUp validate1") {
       it("return a error when name is 21 characters") {
         val f = Form.SignUp("a" * 21, "", "", "")
-        val r = Form.SignUp.validate(f)
+        val r = Form.validate1(f)
         assert(r.isLeft)
       }
 
       it("return a error when mail is invalid format") {
         val f = Form.SignUp("a", "test.com", "", "")
-        val r = Form.SignUp.validate(f)
+        val r = Form.validate1(f)
         assert(r.isLeft)
       }
 
       it("return a error when password is invalid format") {
         val f = Form.SignUp("a", "test@com", "123", "")
-        val r = Form.SignUp.validate(f)
+        val r = Form.validate1(f)
         assert(r.isLeft)
       }
 
       it("return a error when confirmPassword not equal password") {
         val f = Form.SignUp("a", "test@com", "aB1", "dummy")
-        val r = Form.SignUp.validate(f)
+        val r = Form.validate1(f)
         assert(r.isLeft)
       }
 
       it("return a formObject when valid parameters") {
         val f = Form.SignUp("a", "test@com", "aB1", "aB1")
-        val r = Form.SignUp.validate(f)
+        val r = Form.validate1(f)
         assert(r.isRight)
       }
+    }
+
+    describe("SignUp validate2") {
+      // TODO
     }
   }
 }
