@@ -11,6 +11,11 @@ form validation
 - Either
 - scalaz.Validation
 
+### ex03
+fibonacci sequence
+- tailrec
+- stream
+
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
 - [ScalaMock](http://scalamock.org/)
