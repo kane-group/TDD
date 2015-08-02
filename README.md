@@ -16,7 +16,8 @@ TDD研修
     - tailrec
     - stream
 
-- Sieve of Eratosthenes
+- sieve of eratosthenes
+- prime ruler
 
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
