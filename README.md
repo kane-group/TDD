@@ -7,14 +7,16 @@ TDD
 TDD研修
 
 ### ex02
-form validation
-- Either
-- scalaz.Validation
+- form validation
+    - Either
+    - scalaz.Validation
 
 ### ex03
-fibonacci sequence
-- tailrec
-- stream
+- fibonacci sequence
+    - tailrec
+    - stream
+
+- Sieve of Eratosthenes
 
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
