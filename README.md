@@ -19,6 +19,9 @@ TDD研修
 - sieve of eratosthenes
 - prime ruler
 
+### ex04
+- [chatwork/scala-quiz](https://github.com/chatwork/scala-quiz)
+
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
 - [ScalaMock](http://scalamock.org/)
