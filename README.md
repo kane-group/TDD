@@ -21,6 +21,15 @@ TDD研修
 
 ### ex04
 - [chatwork/scala-quiz](https://github.com/chatwork/scala-quiz)
+    - word counter
+    - btree
+    - maybe monad
+    - list monad
+
+- misc
+    - math
+        - [【統計学】初めての「標準偏差」（統計学に挫折しないために） - Qiita](http://qiita.com/kenmatsu4/items/e6c6acb289c02609e619)
+
 
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
