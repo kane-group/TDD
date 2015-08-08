@@ -33,6 +33,7 @@ TDD研修
 ### ex05
 - duck typing / built-in extensions
 - generator
+- publisher/subscriber
 
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
