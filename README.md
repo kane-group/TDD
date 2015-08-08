@@ -30,6 +30,8 @@ TDD研修
     - math
         - [【統計学】初めての「標準偏差」（統計学に挫折しないために） - Qiita](http://qiita.com/kenmatsu4/items/e6c6acb289c02609e619)
 
+### ex05
+- duck typing / built-in extensions
 
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
