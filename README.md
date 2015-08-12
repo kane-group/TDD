@@ -35,6 +35,7 @@ TDD研修
 - generator
 - publisher/subscriber
 - composition
+- scala.uti.Try
 
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
