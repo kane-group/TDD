@@ -34,6 +34,7 @@ TDD研修
 - duck typing / built-in extensions
 - generator
 - publisher/subscriber
+- composition
 
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
