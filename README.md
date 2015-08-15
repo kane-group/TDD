@@ -36,6 +36,7 @@ TDD研修
 - publisher/subscriber
 - composition
 - scala.uti.Try
+- scala.concurrent.Future
 
 ### Libraries
 - [ScalaTest](http://scalatest.org/)
